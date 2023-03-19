@@ -1,0 +1,96 @@
+<ion-header [translucent]="true">
+  <div class="header1">
+    <ion-toolbar>
+      <!-- boton de menu principal -->
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+
+    <!-- titulo -->
+    <ion-title>
+      Milenios Software
+    </ion-title>
+
+    <!-- boton del menu del perfil -->
+    <ion-avatar class="avatar" (click)="openEnd()" slot="end">
+      <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+    </ion-avatar>
+
+    </ion-toolbar>
+  </div>
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div class="header">
+
+    <!-- boton de configuracionen (PROXIMO A ELIMINAR) -->
+    <!-- <div class="container_btn_header">
+      <ion-button href="#" class="button_header">Modificar</ion-button>
+    </div> -->
+    <ion-toolbar>
+     <ion-searchbar class="search_bar"></ion-searchbar>
+    </ion-toolbar>
+  </div>
+
+  <!-- contenido de la app -->
+  <div class="conten">
+
+    <div class="conten1">
+      <img src="assets/img/publicidad.jpg" alt="">
+    </div>
+
+    <ion-slide class="slide">
+        
+    </ion-slide>
+
+    <ion-slide class="slide">
+      
+    </ion-slide>
+
+    <div class="conten2">
+      <div class="conten_header_public">
+        <div class="header_public">
+          <div class="header_public2">
+            <ion-avatar>
+              <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+            </ion-avatar>
+            <div class="text_header_public">
+              <h5>Rappi</h5>
+              <p>16h</p>
+            </div>
+          </div>
+
+          <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+        </div>
+        <div class="pie_de_foto">
+          <p>“Si tienes Rappi, lo tienes todo”</p>
+        </div>
+      </div>
+
+      <div class="img_public">
+        <img src="assets/img/rappi.jpg">
+      </div>
+    </div>
+    <div class="conten2">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eveniet. Magni, tenetur similique officia quasi tempora, quas tempore id omnis ab, voluptates unde mollitia laudantium quibusdam! Maxime velit ut Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia animi repellat, eveniet corrupti sint laborum consequatur laboriosam tenetur assumenda perspiciatis itaque praesentium ullam voluptate unde eius numquam quas beatae. Officiis?</p>
+    </div>
+    <div class="conten2">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eveniet. Magni, tenetur similique officia quasi tempora, quas tempore id omnis ab, voluptates unde mollitia laudantium quibusdam! Maxime velit ut Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia animi repellat, eveniet corrupti sint laborum consequatur laboriosam tenetur assumenda perspiciatis itaque praesentium ullam voluptate unde eius numquam quas beatae. Officiis?</p>
+    </div>
+    <div class="conten2">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eveniet. Magni, tenetur similique officia quasi tempora, quas tempore id omnis ab, voluptates unde mollitia laudantium quibusdam! Maxime velit ut Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia animi repellat, eveniet corrupti sint laborum consequatur laboriosam tenetur assumenda perspiciatis itaque praesentium ullam voluptate unde eius numquam quas beatae. Officiis?</p>
+    </div>
+
+  </div>
+
+  <!-- Boton de asistente -->
+  <div class="asistente">
+    <ion-button (click)="openAsistente()" class="btn_asistente">
+      <ion-icon name="chatbubbles"></ion-icon>
+    </ion-button>
+  </div>
+  
+  
+</ion-content>

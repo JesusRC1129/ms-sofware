@@ -1,0 +1,84 @@
+.center{
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+}
+
+.card-es{
+    margin: auto;
+    border-radius: 25px;
+}
+
+.form-es{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.center{
+    display:flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+// .grid1 {
+//     height: 100%;
+//     padding: 0px;
+// }
+
+// .center {
+//     display: flex;
+    
+//     width: 100%;
+//     height: 100%;
+// }
+
+// .cent{
+//     margin: auto;
+// }
+
+// .text_color{
+//     background-color: white ;
+// }
+// .color{
+//     background-color: rgb(31, 31, 31);
+// }
+
+
+
+
+
+
+// .row2 {
+//     height: 50%;
+// }
+
+// ion-icon {
+//     margin-right: 15px;
+// }
+
+// ion-button {
+//     margin-top: 5px;
+//     margin-bottom: 15px;
+// }
+
+// ion-slide {
+//     width: 100%;
+//     height: 100%;
+//     position: absolute !important;
+//     top: 0px !important;
+// }

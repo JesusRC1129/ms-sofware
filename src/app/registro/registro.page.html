@@ -1,0 +1,78 @@
+<ion-content>
+
+  <div class="center">
+    <ion-card class="card-es">
+      <form class="form-es" action="#">
+        <div>
+          <h1>Milenio software</h1>
+          <h4>Crear una neva cuenta</h4>
+        </div>
+
+        <div class="conten-1">
+          <ion-item fill="outline">
+            <ion-label position="floating">Nombres</ion-label>
+            <ion-input type="text" name="nombre" id="nombre" placeholder="" required></ion-input>
+          </ion-item>
+          <ion-item fill="outline">
+            <ion-label position="floating">Apellidos</ion-label>
+            <ion-input type="text" name="Apellidos" id="apellidos" placeholder="" required></ion-input>
+          </ion-item>
+        </div>
+
+        <div>
+          <ion-item fill="outline">
+            <ion-label position="floating">Gmail</ion-label>
+            <ion-input type="Gmail" name="email" id="email" placeholder="" required></ion-input>
+          </ion-item>
+        </div>
+
+        <div>
+          <ion-item fill="outline">
+            <ion-label position="floating">Numero</ion-label>
+            <ion-input type="tel" name="email" id="email" placeholder="" required></ion-input>
+          </ion-item>
+        </div>
+
+        <div class="conten-1">
+          <ion-item fill="outline">
+            <ion-label position="floating">Contraseña</ion-label>
+            <ion-input type="password" name="password" id="password" placeholder=""></ion-input>
+          </ion-item>
+          <ion-item fill="outline">
+            <ion-label position="floating">Confirmacíon</ion-label>
+            <ion-input type="password" name="confi-password" id="confi-password" placeholder=""></ion-input>
+          </ion-item>
+        </div>
+
+        <div>
+          <p>Fecha de nacimiento</p>
+          <div class="fecha">
+            <input type="date" name="" id="">
+          </div>
+        </div>
+
+        <div>
+          <p>Sexo</p>
+          <div>
+            <ion-list>
+              <ion-radio-group class="conten-1" [allowEmptySelection]="true" value="turtles">
+                <ion-item>
+                  <ion-label>Hombre</ion-label>
+                  <ion-radio slot="end" value="hombre"></ion-radio>
+                </ion-item>
+
+                <ion-item>
+                  <ion-label>Mujer</ion-label>
+                  <ion-radio slot="end" value="mujer"></ion-radio>
+                </ion-item>
+              </ion-radio-group>
+            </ion-list>
+          </div>
+        </div>
+
+        <ion-button [routerLink]="['/home']" shape="round">Registrarse</ion-button>
+
+      </form>
+    </ion-card>
+  </div>
+</ion-content>

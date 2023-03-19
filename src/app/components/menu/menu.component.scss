@@ -1,0 +1,30 @@
+.menu_title {
+    margin-bottom: -22px;
+}
+
+.menu_home {
+    display: grid;
+    justify-content: end;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    transition: opacity 300ms;
+}
+
+a:hover{
+    opacity: 0.6;
+}
+
+a p {
+    margin-left: 10px;
+}
+
+.conten-es{
+    height: 100%;
+    background: #1E1E1E;
+}

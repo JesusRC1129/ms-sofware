@@ -1,0 +1,48 @@
+.center{
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+}
+
+.card-es{
+    margin: auto;
+    border-radius: 25px;
+}
+
+.form-es{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conten-1{
+    display:flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+
+.pf{
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fecha{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+

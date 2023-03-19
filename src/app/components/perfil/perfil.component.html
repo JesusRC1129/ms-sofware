@@ -1,0 +1,81 @@
+<ion-menu class="main" side="end" menuId="end" contentId="main">
+  <ion-header [translucent]="true">
+    <ion-toolbar class="header">
+      <div class="header-es">
+        <div class="model-1">
+          <ion-avatar>
+            <img
+              alt="Silhouette of a person's head"
+              src="https://ionicframework.com/docs/img/demos/avatar.svg"
+            />
+          </ion-avatar>
+          <ion-icon name="ellipsis-horizontal-circle"></ion-icon>
+        </div>
+
+        <ion-label>
+          <h1>Jesus Rodriguez</h1>
+          <p>@JessRod1129</p> 
+        </ion-label>
+
+        <div class="model-1">
+          <p><span>44</span>Siguiendo</p>
+          <p><span>30</span>Amigos</p>
+        </div>
+      </div>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+
+    <div class="conten-es">
+      <ion-list lines="none">
+        <ion-item>
+          <ion-label><a href="perfil">Perfil</a></ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><a href="#">Amigos</a></ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><a href="#">Temas</a></ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label><a href="#">Favoritos</a></ion-label>
+        </ion-item>
+        <details class="details-es">
+          <summary class="summary-es">
+            Calendario <ion-icon name="chevron-forward"></ion-icon>
+          </summary>
+          <ion-datetime
+            presentation="date"
+            [isDateEnabled]="isWeekday"
+          ></ion-datetime>
+        </details>
+      </ion-list>
+      <ion-list lines="none">
+        <details class="details-es">
+          <summary class="summary-es">
+            Heramientas de servicios
+            <ion-icon name="chevron-forward"></ion-icon>
+          </summary>
+          <ion-item>
+            <ion-label><a href="#">Brindar un servicio</a></ion-label>
+          </ion-item>
+        </details>
+        <details class="details-es">
+          <summary class="summary-es">
+            Heramientas de servicios
+            <ion-icon name="chevron-forward"></ion-icon>
+          </summary>
+          <ion-item>
+            <ion-label><a href="#">Configutacion de privacidad</a> </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label><a href="#">Centro de Ayuda</a> </ion-label>
+          </ion-item>
+        </details>
+      </ion-list>
+    </div>
+
+    
+  </ion-content>
+</ion-menu>

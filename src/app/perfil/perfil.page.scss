@@ -1,0 +1,149 @@
+
+.center-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.a-header{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.a-header ion-icon{
+    display: flex;
+}
+
+.center-grid{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+.header-es{
+    padding-top: 15px;
+    background: rgb(31, 31, 31);
+}
+
+.model-1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.model-1 ion-icon {
+    font-size: 35px;
+}
+
+.model-1 p span{
+    margin-right: 5px;
+    color: white;
+}
+
+.model-1 p{
+    color: var(--ion-color-step-600, #666666);
+}
+
+// Navegacion
+
+.navegation{
+    display: flex;
+    justify-content: center;
+   
+}
+
+// a{
+//  height: 50px;
+// align-items: center;
+// gap: 20px;
+//     content: "";
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     height: 2px;
+//     width: 100%;
+//     transform: scaleX(0);
+//     background-color: blue;
+//     transform-origin: bottom right;
+//     transition: tranform 0.25s ease-out;
+// }
+
+// .link:target{
+//     transform: scalex(1);
+//     transform-origin: bottom left;
+// }
+
+.navegation ul {
+    display: flex;
+    text-decoration: none;
+}
+
+.navegation ul li{
+    color: white;
+    list-style: none;
+    margin: 0 1rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.navegation ul li::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    transform: scaleX(0);
+    background-color: blue;
+    transform-origin: bottom right;
+    transition: tranform 0.25s ease-out;
+
+}
+
+.navegation ul li:hover::after{
+    transform: scalex(1);
+    transform-origin: bottom left;
+}
+
+.conten_slide{
+    max-width: 370px;
+    margin: auto;
+    overflow: hidden;
+    // background: #666666;
+    // width: 100%;
+    // height: 100%;
+    // padding: 20px;
+    // overflow: hidden;
+}
+
+.slide{
+    display: flex;
+    width: 200%;
+
+}
+
+.slide_section{
+    width: 100%;
+    max-width: 370px;
+}
+
+
+
+// .slide{
+//     background: white;
+//     display: grid;
+// }
+
+// .slide p{
+//     color: black;
+// }
+
+
+
